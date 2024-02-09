@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background-color: darkviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+b {
+    color: red;
+}
+
+input {
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    transition-duration: .3s;
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+}
+
+.diss {
+    background-color: brown;
+}
+
+.active {
+    width: 100%;
+    position: absolute;
+}
